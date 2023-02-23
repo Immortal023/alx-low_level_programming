@@ -8,10 +8,18 @@
 
 int main(void)
 {
-char l;
 
-for (l = 'a' && l != 'q' ; l <= 'z' && l != 'e' ; l++)
+char l, q, e;
+q = 'q';
+e = 'e';
+
+for (l = 'a' ; l <= 'z' ; l++)
+{
+if (l != e && l != q)
 putchar(l);
+
+}
+putchar('\n');
 return (0);
 
 
