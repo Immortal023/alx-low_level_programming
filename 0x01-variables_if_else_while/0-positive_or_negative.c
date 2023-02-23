@@ -3,8 +3,10 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
-int main(void)
+/* main - prints if number is positive, negative, or zero
+ * Return: Always (Success) */
+int main(void
+		)
 {
 	int n;
 
