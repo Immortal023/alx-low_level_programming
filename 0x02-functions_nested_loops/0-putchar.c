@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * main -Entry point of my code,
- * 
+ * main -Entry point of my code
  * return: Always 0
  */
 int main(void)
