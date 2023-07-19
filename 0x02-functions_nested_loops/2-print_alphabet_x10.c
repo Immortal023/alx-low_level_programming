@@ -8,9 +8,9 @@ void print_alphabet_x10(void)
 {
 	int i, p;
 
-	for (i = 10; p <= 10; p++)
+	for (i = 1; p <= 10; p++)
 	{
-		for (i = 'a'; i <= 'z'; i++)
+		for (i = 97; i <= 122; i++)
 		{
 			_putchar(i);
 		}
