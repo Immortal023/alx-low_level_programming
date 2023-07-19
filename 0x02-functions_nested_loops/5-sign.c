@@ -1,13 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code.
- *function that prints the sign of a number
- * Return 1 and prints + if n is greater than zero
- * Returns 0 and prints 0 if n is zero
- * Returns -1 and prints - if n is less than zero
+ * print_sign - Determines if the input number
+ * @n: The input number as an interger
+ * Return: 1 is greater than zero. 0 is zero
  */
-
 int print_sign(int n)
 {
 	if (n > 0)
@@ -15,7 +12,7 @@ int print_sign(int n)
 		_putchar(43);
 		return (1);
 	}
-	else if(n < 0)
+	else if (n < 0)
 	{
 		_putchar(45);
 		return (-1);
