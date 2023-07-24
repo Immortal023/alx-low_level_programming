@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
- * puts2 - function that prints every other character
- * of a string
- *@str: input
- *Return: print
+ * puts2 - function should print only one character
+ * starting with the first one
+ * @str: input
+ * Return: print
  */
-
 void puts2(char *str)
 {
 	int longi = 0;
@@ -23,9 +21,10 @@ void puts2(char *str)
 	for (o = 0 ; o <= t ; o++)
 	{
 		if (o % 2 == 0)
-		{
-			_putchar(str[0]);
-		}
+	{
+		_putchar(str[o]);
+	}
 	}
 	_putchar('\n');
 }
+
