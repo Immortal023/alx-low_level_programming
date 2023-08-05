@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _memset - Program fills a block of memory with a specific value
- * @s: starting address of memory to be filled
- * @b: the desired value
- * @n: number of bytes to be changed
+ * _memset - Program tha fills a block of memory
+ * @s: starting address of memory
+ * @b: desired value
+ * @n: number of bytes
  *
  * Return: change array with new value for n bytes
  */
